@@ -1,0 +1,241 @@
+[2022-10-29 23:34:07,159] com.ibm.Eapp.run.ipaRunner main 16 - ipaRunner.main() Start::
+[2022-10-29 23:34:25,953] com.ibm.Eapp.xml.TestNGXML_Helper createXMLfile 21 - TestNGXML_Helper.createXMLfile....Start
+[2022-10-29 23:34:26,268] com.ibm.automation.ui.Create_TestNGXML createXMLfile 32 - Create_TestNGXML.createXMLfile....Start
+[2022-10-29 23:34:26,269] com.ibm.automation.ui.Create_TestNGXML getExcelReadControlSheet 120 - Create_TestNGXML.getExcelReadControlSheet....Start
+[2022-10-29 23:34:38,186] com.ibm.automation.ui.Create_TestNGXML getExcelReadControlSheet 135 - Create_TestNGXML.getExcelReadControlSheet....End
+[2022-10-29 23:34:38,193] com.ibm.automation.ui.Create_TestNGXML getExcelReadDataSheet 144 - Create_TestNGXML.getExcelReadDataSheet....Start
+[2022-10-29 23:34:44,512] com.ibm.automation.ui.Create_TestNGXML getExcelReadDataSheet 157 - Create_TestNGXML.getExcelReadDataSheet....End
+[2022-10-29 23:34:44,528] com.ibm.automation.ui.Create_TestNGXML createXMLfile 80 - 001
+[2022-10-29 23:34:44,528] com.ibm.automation.ui.Create_TestNGXML createXMLfile 81 - YES
+[2022-10-29 23:34:44,529] com.ibm.automation.ui.Create_TestNGXML getTestSuite 167 - Create_TestNGXML.getTestSuite....Start
+[2022-10-29 23:34:44,547] com.ibm.automation.ui.Create_TestNGXML getTestSuite 251 - Create_TestNGXML.getTestSuite....End
+[2022-10-29 23:34:54,147] org.apache.http.client.protocol.RequestAddCookies process 123 - CookieSpec selected: default
+[2022-10-29 23:34:54,186] org.apache.http.client.protocol.RequestAuthCache process 77 - Auth cache not set in the context
+[2022-10-29 23:34:54,191] org.apache.http.impl.conn.PoolingHttpClientConnectionManager requestConnection 255 - Connection request: [route: {}->http://localhost:31055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[2022-10-29 23:34:54,236] org.apache.http.impl.conn.PoolingHttpClientConnectionManager leaseConnection 288 - Connection leased: [id: 0][route: {}->http://localhost:31055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2022-10-29 23:34:54,245] org.apache.http.impl.execchain.MainClientExec execute 235 - Opening connection {}->http://localhost:31055
+[2022-10-29 23:34:54,255] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator connect 139 - Connecting to localhost/127.0.0.1:31055
+[2022-10-29 23:34:54,259] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator connect 146 - Connection established 127.0.0.1:52897<->127.0.0.1:31055
+[2022-10-29 23:34:54,259] org.apache.http.impl.conn.LoggingManagedHttpClientConnection setSocketTimeout 88 - http-outgoing-0: set socket timeout to 10800000
+[2022-10-29 23:34:54,261] org.apache.http.impl.execchain.MainClientExec execute 256 - Executing request POST /session HTTP/1.1
+[2022-10-29 23:34:54,261] org.apache.http.impl.execchain.MainClientExec execute 261 - Target auth state: UNCHALLENGED
+[2022-10-29 23:34:54,262] org.apache.http.impl.execchain.MainClientExec execute 267 - Proxy auth state: UNCHALLENGED
+[2022-10-29 23:34:54,266] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 133 - http-outgoing-0 >> POST /session HTTP/1.1
+[2022-10-29 23:34:54,266] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2022-10-29 23:34:54,266] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Content-Length: 335
+[2022-10-29 23:34:54,268] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Host: localhost:31055
+[2022-10-29 23:34:54,268] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Connection: Keep-Alive
+[2022-10-29 23:34:54,269] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.2)
+[2022-10-29 23:34:54,270] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2022-10-29 23:34:54,271] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+[2022-10-29 23:34:54,271] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2022-10-29 23:34:54,272] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Content-Length: 335[\r][\n]"
+[2022-10-29 23:34:54,272] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Host: localhost:31055[\r][\n]"
+[2022-10-29 23:34:54,273] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2022-10-29 23:34:54,273] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.2)[\r][\n]"
+[2022-10-29 23:34:54,273] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2022-10-29 23:34:54,273] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "[\r][\n]"
+[2022-10-29 23:34:54,273] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "{[\n]"
+[2022-10-29 23:34:54,273] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "  "desiredCapabilities": {"browserName":"chrome","goog:chromeOptions":{"args":[],"extensions":[]}},[\n]"
+[2022-10-29 23:34:54,273] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "  "capabilities": {[\n]"
+[2022-10-29 23:34:54,275] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "    "desiredCapabilities": {"browserName":"chrome","goog:chromeOptions":{"args":[],"extensions":[]}},[\n]"
+[2022-10-29 23:34:54,275] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "    "firstMatch": [[\n]"
+[2022-10-29 23:34:54,275] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "      {"browserName":"chrome","goog:chromeOptions":{"args":[],"extensions":[]}}[\n]"
+[2022-10-29 23:34:54,276] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "    ][\n]"
+[2022-10-29 23:34:54,276] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "  }[\n]"
+[2022-10-29 23:34:54,276] org.apache.http.impl.conn.Wire wire 87 - http-outgoing-0 >> "}"
+[2022-10-29 23:34:57,594] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+[2022-10-29 23:34:57,598] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "Content-Length:1020[\r][\n]"
+[2022-10-29 23:34:57,598] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2022-10-29 23:34:57,599] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+[2022-10-29 23:34:57,599] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "[\r][\n]"
+[2022-10-29 23:34:57,599] org.apache.http.impl.conn.Wire wire 87 - http-outgoing-0 << "{"value":{"error":"session not created","message":"session not created: This version of ChromeDriver only supports Chrome version 83","stacktrace":"Backtrace:\n\tOrdinal0 [0x00359563+2725219]\n\tOrdinal0 [0x00258551+1672529]\n\tOrdinal0 [0x00140359+525145]\n\tOrdinal0 [0x000D0B77+68471]\n\tOrdinal0 [0x000CD32C+54060]\n\tOrdinal0 [0x000ECC37+183351]\n\tOrdinal0 [0x000ECA3D+182845]\n\tOrdinal0 [0x000EA94B+174411]\n\tOrdinal0 [0x000D2528+75048]\n\tOrdinal0 [0x000D35A0+79264]\n\tOrdinal0 [0x000D3539+79161]\n\tOrdinal0 [0x0026D607+1758727]\n\tGetHandleVerifier [0x00476546+1050150]\n\tGetHandleVerifier [0x00476291+1049457]\n\tGetHandleVerifier [0x004810D7+1094071]\n\tGetHandleVerifier [0x00476B46+1051686]\n\tOrdinal0 [0x00265B06+1727238]\n\tOrdinal0 [0x0026EB7B+1764219]\n\tOrdinal0 [0x0026ECE3+1764579]\n\tOrdinal0 [0x00284C05+1854469]\n\tBaseThreadInitThunk [0x7708FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77957BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77957B8E+238]\n\t(No symbol) [0x00000000]\n"}}"
+[2022-10-29 23:34:57,623] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onResponseReceived 122 - http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+[2022-10-29 23:34:57,624] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onResponseReceived 125 - http-outgoing-0 << Content-Length:1020
+[2022-10-29 23:34:57,625] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onResponseReceived 125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2022-10-29 23:34:57,625] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onResponseReceived 125 - http-outgoing-0 << cache-control:no-cache
+[2022-10-29 23:34:57,636] org.apache.http.impl.execchain.MainClientExec execute 285 - Connection can be kept alive indefinitely
+[2022-10-29 23:34:57,651] org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection 320 - Connection [id: 0][route: {}->http://localhost:31055] can be kept alive indefinitely
+[2022-10-29 23:34:57,652] org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection 326 - Connection released: [id: 0][route: {}->http://localhost:31055][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2022-10-29 23:38:57,019] com.ibm.Eapp.run.ipaRunner main 16 - ipaRunner.main() Start::
+[2022-10-29 23:39:46,043] com.ibm.Eapp.xml.TestNGXML_Helper createXMLfile 21 - TestNGXML_Helper.createXMLfile....Start
+[2022-10-29 23:39:46,178] com.ibm.automation.ui.Create_TestNGXML createXMLfile 32 - Create_TestNGXML.createXMLfile....Start
+[2022-10-29 23:39:46,178] com.ibm.automation.ui.Create_TestNGXML getExcelReadControlSheet 120 - Create_TestNGXML.getExcelReadControlSheet....Start
+[2022-10-29 23:39:51,650] com.ibm.automation.ui.Create_TestNGXML getExcelReadControlSheet 135 - Create_TestNGXML.getExcelReadControlSheet....End
+[2022-10-29 23:39:51,652] com.ibm.automation.ui.Create_TestNGXML getExcelReadDataSheet 144 - Create_TestNGXML.getExcelReadDataSheet....Start
+[2022-10-29 23:39:53,503] com.ibm.automation.ui.Create_TestNGXML getExcelReadDataSheet 157 - Create_TestNGXML.getExcelReadDataSheet....End
+[2022-10-29 23:39:53,508] com.ibm.automation.ui.Create_TestNGXML createXMLfile 80 - 001
+[2022-10-29 23:39:53,508] com.ibm.automation.ui.Create_TestNGXML createXMLfile 81 - YES
+[2022-10-29 23:39:53,508] com.ibm.automation.ui.Create_TestNGXML getTestSuite 167 - Create_TestNGXML.getTestSuite....Start
+[2022-10-29 23:39:53,512] com.ibm.automation.ui.Create_TestNGXML getTestSuite 251 - Create_TestNGXML.getTestSuite....End
+[2022-10-29 23:39:57,666] org.apache.http.client.protocol.RequestAddCookies process 123 - CookieSpec selected: default
+[2022-10-29 23:39:57,702] org.apache.http.client.protocol.RequestAuthCache process 77 - Auth cache not set in the context
+[2022-10-29 23:39:57,706] org.apache.http.impl.conn.PoolingHttpClientConnectionManager requestConnection 255 - Connection request: [route: {}->http://localhost:43875][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+[2022-10-29 23:39:57,749] org.apache.http.impl.conn.PoolingHttpClientConnectionManager leaseConnection 288 - Connection leased: [id: 0][route: {}->http://localhost:43875][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2022-10-29 23:39:57,753] org.apache.http.impl.execchain.MainClientExec execute 235 - Opening connection {}->http://localhost:43875
+[2022-10-29 23:39:57,760] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator connect 139 - Connecting to localhost/127.0.0.1:43875
+[2022-10-29 23:39:57,762] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator connect 146 - Connection established 127.0.0.1:54329<->127.0.0.1:43875
+[2022-10-29 23:39:57,763] org.apache.http.impl.conn.LoggingManagedHttpClientConnection setSocketTimeout 88 - http-outgoing-0: set socket timeout to 10800000
+[2022-10-29 23:39:57,764] org.apache.http.impl.execchain.MainClientExec execute 256 - Executing request POST /session HTTP/1.1
+[2022-10-29 23:39:57,764] org.apache.http.impl.execchain.MainClientExec execute 261 - Target auth state: UNCHALLENGED
+[2022-10-29 23:39:57,765] org.apache.http.impl.execchain.MainClientExec execute 267 - Proxy auth state: UNCHALLENGED
+[2022-10-29 23:39:57,769] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 133 - http-outgoing-0 >> POST /session HTTP/1.1
+[2022-10-29 23:39:57,770] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2022-10-29 23:39:57,771] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Content-Length: 335
+[2022-10-29 23:39:57,771] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Host: localhost:43875
+[2022-10-29 23:39:57,771] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Connection: Keep-Alive
+[2022-10-29 23:39:57,772] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.2)
+[2022-10-29 23:39:57,772] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2022-10-29 23:39:57,773] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+[2022-10-29 23:39:57,774] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2022-10-29 23:39:57,774] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Content-Length: 335[\r][\n]"
+[2022-10-29 23:39:57,775] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Host: localhost:43875[\r][\n]"
+[2022-10-29 23:39:57,775] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2022-10-29 23:39:57,775] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.2)[\r][\n]"
+[2022-10-29 23:39:57,775] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2022-10-29 23:39:57,776] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "[\r][\n]"
+[2022-10-29 23:39:57,776] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "{[\n]"
+[2022-10-29 23:39:57,776] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "  "desiredCapabilities": {"browserName":"chrome","goog:chromeOptions":{"args":[],"extensions":[]}},[\n]"
+[2022-10-29 23:39:57,776] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "  "capabilities": {[\n]"
+[2022-10-29 23:39:57,776] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "    "desiredCapabilities": {"browserName":"chrome","goog:chromeOptions":{"args":[],"extensions":[]}},[\n]"
+[2022-10-29 23:39:57,777] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "    "firstMatch": [[\n]"
+[2022-10-29 23:39:57,777] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "      {"browserName":"chrome","goog:chromeOptions":{"args":[],"extensions":[]}}[\n]"
+[2022-10-29 23:39:57,777] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "    ][\n]"
+[2022-10-29 23:39:57,778] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "  }[\n]"
+[2022-10-29 23:39:57,778] org.apache.http.impl.conn.Wire wire 87 - http-outgoing-0 >> "}"
+[2022-10-29 23:40:00,061] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2022-10-29 23:40:00,062] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "Content-Length:791[\r][\n]"
+[2022-10-29 23:40:00,062] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2022-10-29 23:40:00,063] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+[2022-10-29 23:40:00,063] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "[\r][\n]"
+[2022-10-29 23:40:00,063] org.apache.http.impl.conn.Wire wire 87 - http-outgoing-0 << "{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"106.0.5249.120","chrome":{"chromedriverVersion":"106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569})","userDataDir":"C:\\Users\\Anurag\\AppData\\Local\\Temp\\scoped_dir19720_126170996"},"goog:chromeOptions":{"debuggerAddress":"localhost:54331"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"f8ab15a5e157876f0220a2d20bb3e95c"}}"
+[2022-10-29 23:40:00,085] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onResponseReceived 122 - http-outgoing-0 << HTTP/1.1 200 OK
+[2022-10-29 23:40:00,088] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onResponseReceived 125 - http-outgoing-0 << Content-Length:791
+[2022-10-29 23:40:00,091] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onResponseReceived 125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2022-10-29 23:40:00,091] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onResponseReceived 125 - http-outgoing-0 << cache-control:no-cache
+[2022-10-29 23:40:00,107] org.apache.http.impl.execchain.MainClientExec execute 285 - Connection can be kept alive indefinitely
+[2022-10-29 23:40:00,125] org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection 320 - Connection [id: 0][route: {}->http://localhost:43875] can be kept alive indefinitely
+[2022-10-29 23:40:00,126] org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection 326 - Connection released: [id: 0][route: {}->http://localhost:43875][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2022-10-29 23:40:00,307] org.apache.http.client.protocol.RequestAddCookies process 123 - CookieSpec selected: default
+[2022-10-29 23:40:00,308] org.apache.http.client.protocol.RequestAuthCache process 77 - Auth cache not set in the context
+[2022-10-29 23:40:00,309] org.apache.http.impl.conn.PoolingHttpClientConnectionManager requestConnection 255 - Connection request: [route: {}->http://localhost:43875][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2022-10-29 23:40:00,310] org.apache.http.impl.conn.PoolingHttpClientConnectionManager leaseConnection 288 - Connection leased: [id: 0][route: {}->http://localhost:43875][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2022-10-29 23:40:00,310] org.apache.http.impl.execchain.MainClientExec execute 208 - Stale connection check
+[2022-10-29 23:40:00,313] org.apache.http.impl.conn.Wire wire 87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+[2022-10-29 23:40:00,314] org.apache.http.impl.conn.LoggingManagedHttpClientConnection setSocketTimeout 88 - http-outgoing-0: set socket timeout to 10800000
+[2022-10-29 23:40:00,315] org.apache.http.impl.execchain.MainClientExec execute 256 - Executing request POST /session/f8ab15a5e157876f0220a2d20bb3e95c/window/maximize HTTP/1.1
+[2022-10-29 23:40:00,315] org.apache.http.impl.execchain.MainClientExec execute 261 - Target auth state: UNCHALLENGED
+[2022-10-29 23:40:00,316] org.apache.http.impl.execchain.MainClientExec execute 267 - Proxy auth state: UNCHALLENGED
+[2022-10-29 23:40:00,316] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 133 - http-outgoing-0 >> POST /session/f8ab15a5e157876f0220a2d20bb3e95c/window/maximize HTTP/1.1
+[2022-10-29 23:40:00,317] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2022-10-29 23:40:00,320] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Content-Length: 2
+[2022-10-29 23:40:00,321] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Host: localhost:43875
+[2022-10-29 23:40:00,321] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Connection: Keep-Alive
+[2022-10-29 23:40:00,322] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.2)
+[2022-10-29 23:40:00,322] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2022-10-29 23:40:00,323] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "POST /session/f8ab15a5e157876f0220a2d20bb3e95c/window/maximize HTTP/1.1[\r][\n]"
+[2022-10-29 23:40:00,323] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2022-10-29 23:40:00,323] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Content-Length: 2[\r][\n]"
+[2022-10-29 23:40:00,324] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Host: localhost:43875[\r][\n]"
+[2022-10-29 23:40:00,324] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2022-10-29 23:40:00,325] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.2)[\r][\n]"
+[2022-10-29 23:40:00,326] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2022-10-29 23:40:00,326] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "[\r][\n]"
+[2022-10-29 23:40:00,327] org.apache.http.impl.conn.Wire wire 87 - http-outgoing-0 >> "{}"
+[2022-10-29 23:40:00,476] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2022-10-29 23:40:00,478] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "Content-Length:51[\r][\n]"
+[2022-10-29 23:40:00,479] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2022-10-29 23:40:00,480] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+[2022-10-29 23:40:00,480] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "[\r][\n]"
+[2022-10-29 23:40:00,481] org.apache.http.impl.conn.Wire wire 87 - http-outgoing-0 << "{"value":{"height":696,"width":1296,"x":-8,"y":-8}}"
+[2022-10-29 23:40:00,482] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onResponseReceived 122 - http-outgoing-0 << HTTP/1.1 200 OK
+[2022-10-29 23:40:00,482] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onResponseReceived 125 - http-outgoing-0 << Content-Length:51
+[2022-10-29 23:40:00,483] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onResponseReceived 125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2022-10-29 23:40:00,483] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onResponseReceived 125 - http-outgoing-0 << cache-control:no-cache
+[2022-10-29 23:40:00,488] org.apache.http.impl.execchain.MainClientExec execute 285 - Connection can be kept alive indefinitely
+[2022-10-29 23:40:00,489] org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection 320 - Connection [id: 0][route: {}->http://localhost:43875] can be kept alive indefinitely
+[2022-10-29 23:40:00,490] org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection 326 - Connection released: [id: 0][route: {}->http://localhost:43875][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2022-10-29 23:40:00,502] org.apache.http.client.protocol.RequestAddCookies process 123 - CookieSpec selected: default
+[2022-10-29 23:40:00,502] org.apache.http.client.protocol.RequestAuthCache process 77 - Auth cache not set in the context
+[2022-10-29 23:40:00,504] org.apache.http.impl.conn.PoolingHttpClientConnectionManager requestConnection 255 - Connection request: [route: {}->http://localhost:43875][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2022-10-29 23:40:00,505] org.apache.http.impl.conn.PoolingHttpClientConnectionManager leaseConnection 288 - Connection leased: [id: 0][route: {}->http://localhost:43875][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2022-10-29 23:40:00,505] org.apache.http.impl.execchain.MainClientExec execute 208 - Stale connection check
+[2022-10-29 23:40:00,510] org.apache.http.impl.conn.Wire wire 87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+[2022-10-29 23:40:00,511] org.apache.http.impl.conn.LoggingManagedHttpClientConnection setSocketTimeout 88 - http-outgoing-0: set socket timeout to 10800000
+[2022-10-29 23:40:00,512] org.apache.http.impl.execchain.MainClientExec execute 256 - Executing request POST /session/f8ab15a5e157876f0220a2d20bb3e95c/timeouts HTTP/1.1
+[2022-10-29 23:40:00,512] org.apache.http.impl.execchain.MainClientExec execute 261 - Target auth state: UNCHALLENGED
+[2022-10-29 23:40:00,513] org.apache.http.impl.execchain.MainClientExec execute 267 - Proxy auth state: UNCHALLENGED
+[2022-10-29 23:40:00,513] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 133 - http-outgoing-0 >> POST /session/f8ab15a5e157876f0220a2d20bb3e95c/timeouts HTTP/1.1
+[2022-10-29 23:40:00,513] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2022-10-29 23:40:00,514] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Content-Length: 18
+[2022-10-29 23:40:00,514] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Host: localhost:43875
+[2022-10-29 23:40:00,515] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Connection: Keep-Alive
+[2022-10-29 23:40:00,515] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.2)
+[2022-10-29 23:40:00,515] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2022-10-29 23:40:00,516] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "POST /session/f8ab15a5e157876f0220a2d20bb3e95c/timeouts HTTP/1.1[\r][\n]"
+[2022-10-29 23:40:00,516] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2022-10-29 23:40:00,516] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Content-Length: 18[\r][\n]"
+[2022-10-29 23:40:00,517] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Host: localhost:43875[\r][\n]"
+[2022-10-29 23:40:00,517] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2022-10-29 23:40:00,517] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.2)[\r][\n]"
+[2022-10-29 23:40:00,518] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2022-10-29 23:40:00,519] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "[\r][\n]"
+[2022-10-29 23:40:00,519] org.apache.http.impl.conn.Wire wire 87 - http-outgoing-0 >> "{"implicit":10000}"
+[2022-10-29 23:40:00,520] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2022-10-29 23:40:00,521] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "Content-Length:14[\r][\n]"
+[2022-10-29 23:40:00,521] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2022-10-29 23:40:00,522] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+[2022-10-29 23:40:00,522] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "[\r][\n]"
+[2022-10-29 23:40:00,522] org.apache.http.impl.conn.Wire wire 87 - http-outgoing-0 << "{"value":null}"
+[2022-10-29 23:40:00,523] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onResponseReceived 122 - http-outgoing-0 << HTTP/1.1 200 OK
+[2022-10-29 23:40:00,523] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onResponseReceived 125 - http-outgoing-0 << Content-Length:14
+[2022-10-29 23:40:00,524] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onResponseReceived 125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2022-10-29 23:40:00,525] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onResponseReceived 125 - http-outgoing-0 << cache-control:no-cache
+[2022-10-29 23:40:00,525] org.apache.http.impl.execchain.MainClientExec execute 285 - Connection can be kept alive indefinitely
+[2022-10-29 23:40:00,526] org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection 320 - Connection [id: 0][route: {}->http://localhost:43875] can be kept alive indefinitely
+[2022-10-29 23:40:00,526] org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection 326 - Connection released: [id: 0][route: {}->http://localhost:43875][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2022-10-29 23:40:00,533] org.apache.http.client.protocol.RequestAddCookies process 123 - CookieSpec selected: default
+[2022-10-29 23:40:00,533] org.apache.http.client.protocol.RequestAuthCache process 77 - Auth cache not set in the context
+[2022-10-29 23:40:00,534] org.apache.http.impl.conn.PoolingHttpClientConnectionManager requestConnection 255 - Connection request: [route: {}->http://localhost:43875][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2022-10-29 23:40:00,534] org.apache.http.impl.conn.PoolingHttpClientConnectionManager leaseConnection 288 - Connection leased: [id: 0][route: {}->http://localhost:43875][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2022-10-29 23:40:00,534] org.apache.http.impl.execchain.MainClientExec execute 208 - Stale connection check
+[2022-10-29 23:40:00,537] org.apache.http.impl.conn.Wire wire 87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+[2022-10-29 23:40:00,537] org.apache.http.impl.conn.LoggingManagedHttpClientConnection setSocketTimeout 88 - http-outgoing-0: set socket timeout to 10800000
+[2022-10-29 23:40:00,537] org.apache.http.impl.execchain.MainClientExec execute 256 - Executing request POST /session/f8ab15a5e157876f0220a2d20bb3e95c/url HTTP/1.1
+[2022-10-29 23:40:00,538] org.apache.http.impl.execchain.MainClientExec execute 261 - Target auth state: UNCHALLENGED
+[2022-10-29 23:40:00,538] org.apache.http.impl.execchain.MainClientExec execute 267 - Proxy auth state: UNCHALLENGED
+[2022-10-29 23:40:00,539] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 133 - http-outgoing-0 >> POST /session/f8ab15a5e157876f0220a2d20bb3e95c/url HTTP/1.1
+[2022-10-29 23:40:00,540] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+[2022-10-29 23:40:00,541] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Content-Length: 116
+[2022-10-29 23:40:00,541] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Host: localhost:43875
+[2022-10-29 23:40:00,541] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Connection: Keep-Alive
+[2022-10-29 23:40:00,542] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.2)
+[2022-10-29 23:40:00,542] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onRequestSubmitted 136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2022-10-29 23:40:00,542] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "POST /session/f8ab15a5e157876f0220a2d20bb3e95c/url HTTP/1.1[\r][\n]"
+[2022-10-29 23:40:00,543] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2022-10-29 23:40:00,543] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Content-Length: 116[\r][\n]"
+[2022-10-29 23:40:00,543] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Host: localhost:43875[\r][\n]"
+[2022-10-29 23:40:00,544] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2022-10-29 23:40:00,544] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/13.0.2)[\r][\n]"
+[2022-10-29 23:40:00,544] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2022-10-29 23:40:00,545] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 >> "[\r][\n]"
+[2022-10-29 23:40:00,545] org.apache.http.impl.conn.Wire wire 87 - http-outgoing-0 >> "{"url":"https://empoweratease.adityabirlacapital.com/BSLI/apps/services/www/eapp/desktopbrowser/default/index.html"}"
+[2022-10-29 23:40:04,473] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2022-10-29 23:40:04,474] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "Content-Length:14[\r][\n]"
+[2022-10-29 23:40:04,474] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+[2022-10-29 23:40:04,476] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+[2022-10-29 23:40:04,476] org.apache.http.impl.conn.Wire wire 73 - http-outgoing-0 << "[\r][\n]"
+[2022-10-29 23:40:04,476] org.apache.http.impl.conn.Wire wire 87 - http-outgoing-0 << "{"value":null}"
+[2022-10-29 23:40:04,476] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onResponseReceived 122 - http-outgoing-0 << HTTP/1.1 200 OK
+[2022-10-29 23:40:04,477] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onResponseReceived 125 - http-outgoing-0 << Content-Length:14
+[2022-10-29 23:40:04,477] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onResponseReceived 125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+[2022-10-29 23:40:04,477] org.apache.http.impl.conn.LoggingManagedHttpClientConnection onResponseReceived 125 - http-outgoing-0 << cache-control:no-cache
+[2022-10-29 23:40:04,478] org.apache.http.impl.execchain.MainClientExec execute 285 - Connection can be kept alive indefinitely
+[2022-10-29 23:40:04,480] org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection 320 - Connection [id: 0][route: {}->http://localhost:43875] can be kept alive indefinitely
+[2022-10-29 23:40:04,480] org.apache.http.impl.conn.PoolingHttpClientConnectionManager releaseConnection 326 - Connection released: [id: 0][route: {}->http://localhost:43875][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+[2022-10-29 23:40:31,077] com.ibm.Eapp.auto.Controller reDirectProcess 42 - com.ibm.Eapp.auto.Controller...start
+[2022-10-29 23:40:31,969] com.ibm.Eapp.auto.Controller reDirectProcess 43 - com.ibm.Eapp.auto.Controller invoked com.ibm.Eapp.mod.EappCSEMod
+[2022-10-29 23:40:32,865] com.ibm.Eapp.auto.Controller reDirectProcess 44 - com.ibm.Eapp.auto.Controller invoked 001
+[2022-10-29 23:43:06,783] com.ibm.Eapp.mod.EappCSEMod Execute 81 - EappMod initiated....
+[2022-10-29 23:47:25,230] com.ibm.automation.ui.AutomationWrapper Execute 270 - AutomationWrapper....
+[2022-10-29 23:50:51,738] com.ibm.automation.ui.AutomationWrapper Execute 270 - AutomationWrapper....

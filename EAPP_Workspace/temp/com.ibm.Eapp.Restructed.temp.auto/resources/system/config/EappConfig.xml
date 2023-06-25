@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<Environment_Details>
+		<AppUrl>http://203.77.177.245/BSLI/apps/services/www/eapp/desktopbrowser/default/index.html</AppUrl>
+	</Environment_Details>
+	
+	<timeout>80</timeout>
+	
+	<Execution_Details>
+		<Execution_Type>Single</Execution_Type><!-- Single/Multiple/Hybrid-XX -->	
+		<Regression_Suite_Name>Test</Regression_Suite_Name>
+	</Execution_Details>
+	
+</Root>

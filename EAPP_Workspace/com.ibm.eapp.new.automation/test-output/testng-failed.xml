@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EAPP]" guice-stage="DEVELOPMENT">
+  <parameter name="proxyFile" value="NA"/>
+  <parameter name="driverPath" value="../temp/com.ibm.Eapp.Restructed.temp.auto/resources/system/config/WebDrivers/"/>
+  <parameter name="appURL" value="https://empoweratease.adityabirlacapital.com/BSLI/apps/services/www/eapp/desktopbrowser/default/index.html"/>
+  <parameter name="tcID" value="001"/>
+  <parameter name="browserType" value="CHROME"/>
+  <listeners>
+    <listener class-name="com.ibm.Eapp.listener.SuiteListener"/>
+  </listeners>
+  <test name="001(failed)">
+    <parameter name="proxyFile" value="NA"/>
+    <parameter name="driverPath" value="../temp/com.ibm.Eapp.Restructed.temp.auto/resources/system/config/WebDrivers/"/>
+    <parameter name="appURL" value="https://empoweratease.adityabirlacapital.com/BSLI/apps/services/www/eapp/desktopbrowser/default/index.html"/>
+    <parameter name="tcID" value="001"/>
+    <parameter name="browserType" value="CHROME"/>
+    <classes>
+      <class name="com.ibm.Eapp.auto.Controller">
+        <parameter name="mod" value="com.ibm.Eapp.mod.EappCSEMod"/>
+        <parameter name="sheetName" value="MajorSame"/>
+        <parameter name="datasheetResultPath" value="../temp/com.ibm.Eapp.Restructed.temp.auto/resources/system/config/Datasheet/Datasheet_Result.xlsx"/>
+        <parameter name="datasheetPath" value="../temp/com.ibm.Eapp.Restructed.temp.auto/resources/system/config/Datasheet/Datasheet.xlsx"/>
+        <parameter name="tcID" value="001"/>
+        <parameter name="timeout" value="80"/>
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="reDirectProcess" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="destroy"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.ibm.Eapp.auto.Controller -->
+    </classes>
+  </test> <!-- 001(failed) -->
+</suite> <!-- Failed suite [EAPP] -->

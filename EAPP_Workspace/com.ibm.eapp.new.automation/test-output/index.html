@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-EAPP" class="navigator-link">
+              <span class="suite-name border-failed">EAPP</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-EAPP" class="navigator-link ">
+                    <span>C:\Users\Anurag\Downloads\OFFICE_WORK_SPACE_EAPP\EAPP_Workspace\EAPP_Workspace\temp\com.ibm.Eapp.Restructed.temp.auto\resources\system\config\EappTestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-EAPP" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-EAPP" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-EAPP" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-EAPP" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-EAPP" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-EAPP" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-EAPP" class="hide-methods failed suite-EAPP"> (hide)</a> <!-- hide-methods failed suite-EAPP -->
+                      <a href="#" panel-name="suite-EAPP" class="show-methods failed suite-EAPP"> (show)</a> <!-- show-methods failed suite-EAPP -->
+                    </span>
+                    <div class="method-list-content failed suite-EAPP">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EAPP" title="com.ibm.Eapp.auto.Controller" class="method navigator-link" hash-for-method="reDirectProcess(com.ibm.Eapp.mod.EappCSEMod, 001, MajorSame, 80, ../temp/com.ibm.Eapp.Restructed.temp.auto/resources...)">reDirectProcess(com.ibm.Eapp.mod.EappCSEMod, 001, MajorSame, 80, ../temp/com.ibm.Eapp.Restructed.temp.auto/resources...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-EAPP -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-EAPP" class="panel EAPP">
+          <div class="suite-EAPP-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.ibm.Eapp.auto.Controller</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="reDirectProcess(com.ibm.Eapp.mod.EappCSEMod, 001, MajorSame, 80, ../temp/com.ibm.Eapp.Restructed.temp.auto/resources...)">
+                  </a> <!-- reDirectProcess(com.ibm.Eapp.mod.EappCSEMod, 001, MajorSame, 80, ../temp/com.ibm.Eapp.Restructed.temp.auto/resources...) -->
+                  <span class="method-name">reDirectProcess</span>
+                  <span class="parameters">(com.ibm.Eapp.mod.EappCSEMod, 001, MajorSame, 80, ../temp/com.ibm.Eapp.Restructed.temp.auto/resources/system/config/Datasheet/Datasheet.xlsx, ../temp/com.ibm.Eapp.Restructed.temp.auto/resources/system/config/Datasheet/Datasheet_Result.xlsx)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.relevantcodes.extentreports.ExtentTest.isPathRelative(ExtentTest.java:502)
+	at com.relevantcodes.extentreports.ExtentTest.addScreenCapture(ExtentTest.java:287)
+	at com.ibm.utility.reports.TestReporter.Log_Fail(TestReporter.java:161)
+	at com.ibm.automation.ui.AutomationWrapper.Execute(AutomationWrapper.java:377)
+	at com.ibm.automation.ui.AutomationWrapper.Execute(AutomationWrapper.java:273)
+	at com.ibm.automation.ui.AutomationWrapper.Execute(AutomationWrapper.java:138)
+	at com.ibm.Eapp.mod.EappCSEMod.Execute(EappCSEMod.java:121)
+	at com.ibm.Eapp.auto.Controller.reDirectProcess(Controller.java:54)
+	at com.ibm.automation.ui.Create_TestNGXML.runTestNG(Create_TestNGXML.java:281)
+	at com.ibm.automation.ui.Create_TestNGXML.createXMLfile(Create_TestNGXML.java:99)
+	at com.ibm.Eapp.xml.TestNGXML_Helper.createXMLfile(TestNGXML_Helper.java:46)
+	at com.ibm.Eapp.run.ipaRunner.main(ipaRunner.java:22)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EAPP-class-failed -->
+        </div> <!-- panel EAPP -->
+        <div panel-name="test-xml-EAPP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Anurag\Downloads\OFFICE_WORK_SPACE_EAPP\EAPP_Workspace\EAPP_Workspace\temp\com.ibm.Eapp.Restructed.temp.auto\resources\system\config\EappTestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;EAPP&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.ibm.Eapp.listener.SuiteListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;001&quot;&gt;
+    &lt;parameter name=&quot;proxyFile&quot; value=&quot;NA&quot;/&gt;
+    &lt;parameter name=&quot;driverPath&quot; value=&quot;../temp/com.ibm.Eapp.Restructed.temp.auto/resources/system/config/WebDrivers/&quot;/&gt;
+    &lt;parameter name=&quot;appURL&quot; value=&quot;https://empoweratease.adityabirlacapital.com/BSLI/apps/services/www/eapp/desktopbrowser/default/index.html&quot;/&gt;
+    &lt;parameter name=&quot;tcID&quot; value=&quot;001&quot;/&gt;
+    &lt;parameter name=&quot;browserType&quot; value=&quot;CHROME&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ibm.Eapp.auto.Controller&quot;&gt;
+        &lt;parameter name=&quot;mod&quot; value=&quot;com.ibm.Eapp.mod.EappCSEMod&quot;/&gt;
+        &lt;parameter name=&quot;sheetName&quot; value=&quot;MajorSame&quot;/&gt;
+        &lt;parameter name=&quot;datasheetResultPath&quot; value=&quot;../temp/com.ibm.Eapp.Restructed.temp.auto/resources/system/config/Datasheet/Datasheet_Result.xlsx&quot;/&gt;
+        &lt;parameter name=&quot;datasheetPath&quot; value=&quot;../temp/com.ibm.Eapp.Restructed.temp.auto/resources/system/config/Datasheet/Datasheet.xlsx&quot;/&gt;
+        &lt;parameter name=&quot;tcID&quot; value=&quot;001&quot;/&gt;
+        &lt;parameter name=&quot;timeout&quot; value=&quot;80&quot;/&gt;
+      &lt;/class&gt; &lt;!-- com.ibm.Eapp.auto.Controller --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 001 --&gt;
+&lt;/suite&gt; &lt;!-- EAPP --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-EAPP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for EAPP</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">001 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-EAPP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for EAPP</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-EAPP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for EAPP</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_EAPP');
+function tableData_EAPP() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'reDirectProcess')
+data.setCell(0, 2, 'com.ibm.Eapp.auto.Controller')
+data.setCell(0, 3, 7203);
+window.suiteTableData['EAPP']= { tableData: data, tableDiv: 'times-div-EAPP'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-EAPP">
+              </div> <!-- times-div-EAPP -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-EAPP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for EAPP</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-EAPP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-EAPP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ibm.Eapp.auto.Controller</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initializeTestBaseSetup(CHROME, https://empoweratease.adityabirlacapital.com/BSLI/apps/services/www/eapp/desktopbrowser/defa...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8350 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">reDirectProcess(com.ibm.Eapp.mod.EappCSEMod, 001, MajorSame, 80, ../temp/com.ibm.Eapp.Restructed.temp.auto/resources...)</span>
+                <span class="method-start">8368 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">destroy</span>
+                <span class="method-start">15579 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16116 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

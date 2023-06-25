@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/ActionUtils_V1.2.jar"/>
+	<classpathentry kind="lib" path="lib/aspose-cells-8.8.3.jar"/>
+	<classpathentry kind="lib" path="lib/commons-dbutils-1.7.jar"/>
+	<classpathentry kind="lib" path="lib/ExcelUtils_v1.6.jar"/>
+	<classpathentry kind="lib" path="lib/jacob.jar"/>
+	<classpathentry kind="lib" path="lib/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="lib/jsch-0.1.54.jar"/>
+	<classpathentry kind="lib" path="lib/mssql-jdbc-6.1.0.jre8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Anurag/Downloads/OFFICE_WORK_SPACE_EAPP/EAPP_Workspace/hsqldb-2.2.8.jar/hsqldb-2.2.8.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
